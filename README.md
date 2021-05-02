@@ -1,7 +1,7 @@
 # Unintended-garbage-collection  
 
   
-Humans are notorious litter bugs. I am a fascinated by the amount of stuff that is just left lying around servers scattered all across the internet and the world.  
+Humans are notorious litter bugs. There is a collossal amount of "interesting stuff" that is just left lying around servers scattered all across the internet and the world.  
   
 
 >  - Are your SSH keys sat on some server somewhere in the Ukraine   
