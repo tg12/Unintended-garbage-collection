@@ -1,24 +1,15 @@
-# Unintended-garbage-collection
-Litter bugs
-
-
-Humans are notorious litter bugs. I am a fascinated by the amount of stuff that is just left lying around servers scattered all across the internet and the world. 
-
-are your SSH keys sat on some server somewhere in the UKraine
-Are your backups open to the world? 
-Are your server logs with sensitive information sat freely available to the world on a server in China 
-Is your favourite TV show on a server free to download
-Are your company accounts sat there for the world to see. # Unintended-garbage-collection  
+# Unintended-garbage-collection  
 
   
 Humans are notorious litter bugs. I am a fascinated by the amount of stuff that is just left lying around servers scattered all across the internet and the world.  
   
- - Are your SSH keys sat on some server somewhere in the Ukraine   
- - Are your backups open to the world?   
- - Are your server logs with sensitive  information sat freely available to the world on a server in China  
- -   Is your favourite TV show on a server free to download   
- - Are your company accounts sat there for the world to see....
- - Plus many more
+
+>  - Are your SSH keys sat on some server somewhere in the Ukraine   
+>  - Are your backups open to the world?   
+>  - Are your server logs with sensitive  information sat freely available to the world on a server in China  
+>  -   Is your favourite TV show on a server free to download   
+>  - Are your company accounts sat there for the world to see....
+>  - Plus many more
 
 Have you found something, contact me. 
 
@@ -71,4 +62,3 @@ Have you found something, contact me.
     Uniswap 			0x664E7894e697323786D953008F3558B564E74A71
     Wrapped Bitcoin 		0x89AfC69bB4a1275E24603764d7737a670553e5F3
     XRP 				rw2ciyaNshpHe7bCHo4bRWq6pqqynnWKQg
-
