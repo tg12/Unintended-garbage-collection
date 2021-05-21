@@ -11,9 +11,9 @@ Humans are notorious litter bugs. There is a collossal amount of "interesting st
 
 Useful for alot of reasons
 
->  - Are you publishing info without knowing it
+>  - Remove data you are publishing but shouldn't be
 >  - OSINT Investigations
->  - Poor OPSEC
+>  - Triage Poor OPSEC
 
 My intention was to find every "Index of /" server publically accessable, This generates alot of data. That's why there is a Torrent. 
 
