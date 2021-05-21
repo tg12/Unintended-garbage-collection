@@ -4,9 +4,10 @@ Humans are notorious litter bugs. There is a collossal amount of "interesting st
 
 >  - Are your SSH keys sat on some server somewhere in the Ukraine, China, Or elsewhere
 >  - Are you backing up for the world to mirror?   
->  - Are your server logs with sensitive  information sat freely available to the world on a server in China  
->  -  Is your favourite TV show on a server free to download   
+>  - Are your server logs with sensitive information sat freely available to the world on a server somewhere  
+>  - Is your favourite TV show on a server free to download   
 >  - Are your company accounts sat there for the world to see....
+>  - Do you have documents published available for your competitors to view?
 >  - Plus many more
 
 Useful for alot of reasons
