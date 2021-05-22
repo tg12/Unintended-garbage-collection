@@ -8,6 +8,7 @@ Humans are notorious litter bugs. There is a collossal amount of "interesting st
 >  - Is your favourite TV show on a server free to download   
 >  - Are your company accounts sat there for the world to see....
 >  - Do you have documents published available for your competitors to view?
+>  - Passwordless OpenVPN profiles that allow direct access to your network (Check the examples)
 >  - Plus many more
 
 Useful for alot of reasons
@@ -16,7 +17,11 @@ Useful for alot of reasons
 >  - OSINT Investigations
 >  - Triage Poor OPSEC
 
-My intention was to find every "Index of /" server publically accessable, This generates alot of data. That's why there is a Torrent. 
+My intention was to find every "Index of /" server publically accessable, 
+
+This generates alot of data. That's why there is a Torrent. 
+
+[Download Torrent](https://github.com/tg12/Unintended-garbage-collection/raw/main/index%20of%20scans.torrent)
 
 More Info 
 https://en.wikipedia.org/wiki/Webserver_directory_index
