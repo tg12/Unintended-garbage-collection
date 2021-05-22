@@ -50,3 +50,10 @@ grep -F  "PASSWORD" big_link_data_dump.txt >> passwords.log
 #------OpenVPN Profiles------
 ####################
 grep -F  ".ovpn" big_link_data_dump.txt >> openvpns.log
+
+
+TODO:
+.profile
+.bash_history
+.ssh
+
