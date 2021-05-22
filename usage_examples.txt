@@ -1,17 +1,23 @@
+####################
+#------Backups------
+####################
 grep -F  "Backup" big_link_data_dump.txt >> backups.log
 grep -F  "Backups" big_link_data_dump.txt >> backups.log
 grep -F  "backup" big_link_data_dump.txt >> backups.log
 grep -F  "backups" big_link_data_dump.txt >> backups.log
 grep -F  "BACKUPS" big_link_data_dump.txt >> backups.log
 grep -F  "BACKUP" big_link_data_dump.txt >> backups.log
-
-
+####################
+#------Media (All Types)------
+####################
 grep -F  ".1080p" big_link_data_dump.txt >> interesting_media.log
 grep -F  ".MKV" big_link_data_dump.txt >> interesting_media.log
 grep -F  ".mkv" big_link_data_dump.txt >> interesting_media.log
 grep -F  ".m3u8" big_link_data_dump.txt >> interesting_media.log
 grep -F  ".mp4" big_link_data_dump.txt >> interesting_media.log
-
+####################
+#------Misconfigured Data------
+####################
 grep -F  ".tar.gz" big_link_data_dump.txt >> interesting_misconfigured.log
 grep -F  "FTP" big_link_data_dump.txt >> interesting_misconfigured.log
 grep -F  ".conf" big_link_data_dump.txt >> interesting_misconfigured.log
@@ -20,10 +26,27 @@ grep -F  ".txt" big_link_data_dump.txt >> interesting_misconfigured.log
 grep -F  "audit.log" big_link_data_dump.txt >> interesting_misconfigured.log
 grep -F  "debug.log" big_link_data_dump.txt >> interesting_misconfigured.log
 grep -F  "server.log" big_link_data_dump.txt >> interesting_misconfigured.log
-
+grep -F  ".rar" big_link_data_dump.txt >> interesting_misconfigured.log
+grep -F  "sip-" big_link_data_dump.txt >> interesting_sip.log
+grep -F  "htaccess" big_link_data_dump.txt >> interesting_htaccess.log
+####################
+#------Tracking Users------
+####################
 grep -F  "cellebrite" big_link_data_dump.txt >> interesting_tracking.log
 grep -F  "Cellebrite" big_link_data_dump.txt >> interesting_tracking.log
 grep -F  "UserActivity/" big_link_data_dump.txt >> interesting_tracking.log
-
-grep -F  "sip-" big_link_data_dump.txt >> interesting_sip.log
-grep -F  "htaccess" big_link_data_dump.txt >> interesting_htaccess.log
+####################
+#------Access------
+####################
+grep -F  "keys" big_link_data_dump.txt >> interesting_access.log
+grep -F  ".pem" big_link_data_dump.txt >> interesting_access.log
+grep -F  "Password" big_link_data_dump.txt >> passwords.log
+grep -F  "Passwords" big_link_data_dump.txt >> passwords.log
+grep -F  "password" big_link_data_dump.txt >> passwords.log
+grep -F  "passwords" big_link_data_dump.txt >> passwords.log
+grep -F  "PASSWORDS" big_link_data_dump.txt >> passwords.log
+grep -F  "PASSWORD" big_link_data_dump.txt >> passwords.log
+####################
+#------OpenVPN Profiles------
+####################
+grep -F  ".ovpn" big_link_data_dump.txt >> openvpns.log
