@@ -10,28 +10,23 @@ grep -F  "BACKUP" big_link_data_dump.txt >> backups.log
 ####################
 #------Media (All Types)------
 ####################
-grep -F  ".1080p" big_link_data_dump.txt >> interesting_media.log
-grep -F  ".MKV" big_link_data_dump.txt >> interesting_media.log
-grep -F  ".mkv" big_link_data_dump.txt >> interesting_media.log
-grep -F  ".m3u8" big_link_data_dump.txt >> interesting_media.log
-grep -F  ".mp4" big_link_data_dump.txt >> interesting_media.log
+grep ".*\.\(1080p\)" big_link_data_dump.txt >> interesting_media.log
+grep ".*\.\(MKV\)" big_link_data_dump.txt >> interesting_media.log
+grep ".*\.\(mkv\)" big_link_data_dump.txt >> interesting_media.log
+grep ".*\.\(m3u8\)" big_link_data_dump.txt >> interesting_media.log
+grep ".*\.\(mp4\)" big_link_data_dump.txt >> interesting_media.log
 ####################
 #------Misconfigured Data------
 ####################
-grep -F  ".tar.gz" big_link_data_dump.txt >> interesting_misconfigured.log
 grep -F  "FTP" big_link_data_dump.txt >> interesting_misconfigured.log
 grep -F  ".conf" big_link_data_dump.txt >> interesting_misconfigured.log
-grep -F  "/ISO" big_link_data_dump.txt >> interesting_misconfigured.log
-grep -F  ".txt" big_link_data_dump.txt >> interesting_misconfigured.log
-grep -F  "audit.log" big_link_data_dump.txt >> interesting_misconfigured.log
-grep -F  "debug.log" big_link_data_dump.txt >> interesting_misconfigured.log
-grep -F  "server.log" big_link_data_dump.txt >> interesting_misconfigured.log
-grep -F  ".rar" big_link_data_dump.txt >> interesting_misconfigured.log
+grep -F ".*\.\(log\)" big_link_data_dump.txt >> interesting_misconfigured.log
+grep -F ".*\.\(txt\)" big_link_data_dump.txt >> interesting_misconfigured.log
+grep -F  "WSFTP.LOG" big_link_data_dump.txt >> interesting_misconfigured.log
 
 grep -F  "sip-" big_link_data_dump.txt >> interesting_sip.log
 grep -F  "htaccess" big_link_data_dump.txt >> interesting_htaccess.log
 
-grep -F  ".sql" big_link_data_dump.txt >> sqlfiles.log
 ####################
 #------Tracking Users------
 ####################
@@ -67,24 +62,33 @@ grep -F  ".webcamera.html" big_link_data_dump.txt >> webcamera.log
 ####################
 #------Documents------
 ####################
-grep -F  ".pdf" big_link_data_dump.txt >> documents.log
-grep -F  ".doc" big_link_data_dump.txt >> documents.log
-grep -F  ".docx" big_link_data_dump.txt >> documents.log
-grep -F  ".xls" big_link_data_dump.txt >> documents.log
-grep -F  ".xlsx" big_link_data_dump.txt >> documents.log
+grep ".pdf" big_link_data_dump.txt >> documents.log
+grep ".doc" big_link_data_dump.txt >> documents.log
+grep ".docx" big_link_data_dump.txt >> documents.log
+grep ".xls" big_link_data_dump.txt >> documents.log
+grep ".xlsx" big_link_data_dump.txt >> documents.log
 
 ####################
 #------FILE NAME SEARCH------
 ####################
-grep ".*\.\(sql\)" big_link_data_dump.txt
-grep ".*\.\(pdf\)" big_link_data_dump.txt
-grep ".*\.\(iso\)" big_link_data_dump.txt
-grep ".*\.\(doc\)" big_link_data_dump.txt
-grep ".*\.\(docx\)" big_link_data_dump.txt
-grep ".*\.\(xlsx\)" big_link_data_dump.txt
-grep ".*\.\(rar\)" big_link_data_dump.txt
-grep ".*\.\(tar\)" big_link_data_dump.txt
+grep ".*\.\(sql\)" big_link_data_dump.txt >> sqlfiles.log
+
+grep ".*\.\(pdf\)" big_link_data_dump.txt >> documents.log
+grep ".*\.\(doc\)" big_link_data_dump.txt >> documents.log
+grep ".*\.\(docx\)" big_link_data_dump.txt >> documents.log
+grep ".*\.\(xlsx\)" big_link_data_dump.txt >> documents.log
+
+grep ".*\.\(iso\)" big_link_data_dump.txt >> archives.log
+grep ".*\.\(7z\)" big_link_data_dump.txt >> archives.log
+grep ".*\.\(zip\)" big_link_data_dump.txt >> archives.log
+grep ".*\.\(rar\)" big_link_data_dump.txt >> archives.log
+grep ".*\.\(rar\)" big_link_data_dump.txt >> archives.log
+grep ".*\.\(tar.gz\)" big_link_data_dump.txt >> archives.log
+grep "/ISO" big_link_data_dump.txt >> archives.log
+grep ".*\.\(DAT\)" big_link_data_dump.txt >> archives.log
+grep ".*\.\(dat\)" big_link_data_dump.txt >> archives.log
+
 grep ".*\.\(ovpn\)" big_link_data_dump.txt
-grep ".*\.\(7z\)" big_link_data_dump.txt
-grep ".*\.\(zip\)" big_link_data_dump.txt
+
+
 
