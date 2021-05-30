@@ -73,3 +73,18 @@ grep -F  ".docx" big_link_data_dump.txt >> documents.log
 grep -F  ".xls" big_link_data_dump.txt >> documents.log
 grep -F  ".xlsx" big_link_data_dump.txt >> documents.log
 
+####################
+#------FILE NAME SEARCH------
+####################
+grep ".*\.\(sql\)" big_link_data_dump.txt
+grep ".*\.\(pdf\)" big_link_data_dump.txt
+grep ".*\.\(iso\)" big_link_data_dump.txt
+grep ".*\.\(doc\)" big_link_data_dump.txt
+grep ".*\.\(docx\)" big_link_data_dump.txt
+grep ".*\.\(xlsx\)" big_link_data_dump.txt
+grep ".*\.\(rar\)" big_link_data_dump.txt
+grep ".*\.\(tar\)" big_link_data_dump.txt
+grep ".*\.\(ovpn\)" big_link_data_dump.txt
+grep ".*\.\(7z\)" big_link_data_dump.txt
+grep ".*\.\(zip\)" big_link_data_dump.txt
+
