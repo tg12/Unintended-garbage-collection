@@ -20,8 +20,8 @@ grep ".*\.\(mp4\)" big_link_data_dump.txt >> interesting_media.log
 ####################
 grep -F  "FTP" big_link_data_dump.txt >> interesting_misconfigured.log
 grep -F  ".conf" big_link_data_dump.txt >> interesting_misconfigured.log
-grep -F ".*\.\(log\)" big_link_data_dump.txt >> interesting_misconfigured.log
-grep -F ".*\.\(txt\)" big_link_data_dump.txt >> interesting_misconfigured.log
+grep ".*\.\(log\)" big_link_data_dump.txt >> interesting_misconfigured.log
+grep ".*\.\(txt\)" big_link_data_dump.txt >> interesting_misconfigured.log
 grep -F  "WSFTP.LOG" big_link_data_dump.txt >> interesting_misconfigured.log
 
 grep -F  "sip-" big_link_data_dump.txt >> interesting_sip.log
@@ -36,47 +36,48 @@ grep -F  "UserActivity/" big_link_data_dump.txt >> interesting_tracking.log
 ####################
 #------Access------
 ####################
-grep -F  "Password" big_link_data_dump.txt >> passwords.log
-grep -F  "Passwords" big_link_data_dump.txt >> passwords.log
-grep -F  "password" big_link_data_dump.txt >> passwords.log
-grep -F  "passwords" big_link_data_dump.txt >> passwords.log
-grep -F  "PASSWORDS" big_link_data_dump.txt >> passwords.log
-grep -F  "PASSWORD" big_link_data_dump.txt >> passwords.log
+grep -F "Password" big_link_data_dump.txt >> passwords.log
+grep -F "Passwords" big_link_data_dump.txt >> passwords.log
+grep -F "password" big_link_data_dump.txt >> passwords.log
+grep -F "passwords" big_link_data_dump.txt >> passwords.log
+grep -F "PASSWORDS" big_link_data_dump.txt >> passwords.log
+grep -F "PASSWORD" big_link_data_dump.txt >> passwords.log
 
 
-grep -F  "keys" big_link_data_dump.txt >> linux_dirs.log
-grep -F  ".pem" big_link_data_dump.txt >> linux_dirs.log
-grep -F  ".ssh" big_link_data_dump.txt >> linux_dirs.log
-grep -F  ".bash_history" big_link_data_dump.txt >> linux_dirs.log
-grep -F  ".profile" big_link_data_dump.txt >> linux_dirs.log
+grep -F "keys" big_link_data_dump.txt >> linux_dirs.log
+grep -F ".pem" big_link_data_dump.txt >> linux_dirs.log
+grep -F ".ssh" big_link_data_dump.txt >> linux_dirs.log
+grep -F ".bash_history" big_link_data_dump.txt >> linux_dirs.log
+grep -F ".profile" big_link_data_dump.txt >> linux_dirs.log
 
 
 ####################
 #------OpenVPN Profiles------
 ####################
-grep -F  ".ovpn" big_link_data_dump.txt >> openvpns.log
+grep -F ".ovpn" big_link_data_dump.txt >> openvpns.log
+grep ".*\.\(ovpn\)" big_link_data_dump.txt
 ####################
 #------Cameras------
 ####################
-grep -F  ".webcamera.html" big_link_data_dump.txt >> webcamera.log
+grep -F ".webcamera.html" big_link_data_dump.txt >> webcamera.log
 ####################
 #------Documents------
 ####################
-grep ".pdf" big_link_data_dump.txt >> documents.log
-grep ".doc" big_link_data_dump.txt >> documents.log
-grep ".docx" big_link_data_dump.txt >> documents.log
-grep ".xls" big_link_data_dump.txt >> documents.log
-grep ".xlsx" big_link_data_dump.txt >> documents.log
-
-####################
-#------FILE NAME SEARCH------
-####################
-grep ".*\.\(sql\)" big_link_data_dump.txt >> sqlfiles.log
+#grep ".pdf" big_link_data_dump.txt >> documents.log
+#grep ".doc" big_link_data_dump.txt >> documents.log
+#grep ".docx" big_link_data_dump.txt >> documents.log
+#grep ".xls" big_link_data_dump.txt >> documents.log
+#grep ".xlsx" big_link_data_dump.txt >> documents.log
 
 grep ".*\.\(pdf\)" big_link_data_dump.txt >> documents.log
 grep ".*\.\(doc\)" big_link_data_dump.txt >> documents.log
 grep ".*\.\(docx\)" big_link_data_dump.txt >> documents.log
 grep ".*\.\(xlsx\)" big_link_data_dump.txt >> documents.log
+
+####################
+#------FILE NAME SEARCH------
+####################
+grep ".*\.\(sql\)" big_link_data_dump.txt >> sqlfiles.log
 
 grep ".*\.\(iso\)" big_link_data_dump.txt >> archives.log
 grep ".*\.\(7z\)" big_link_data_dump.txt >> archives.log
@@ -87,8 +88,3 @@ grep ".*\.\(tar.gz\)" big_link_data_dump.txt >> archives.log
 grep "/ISO" big_link_data_dump.txt >> archives.log
 grep ".*\.\(DAT\)" big_link_data_dump.txt >> archives.log
 grep ".*\.\(dat\)" big_link_data_dump.txt >> archives.log
-
-grep ".*\.\(ovpn\)" big_link_data_dump.txt
-
-
-
