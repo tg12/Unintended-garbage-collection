@@ -22,7 +22,7 @@ This generates alot of data some files are too big for Github, So I have created
 [Download Torrent](https://github.com/tg12/Unintended-garbage-collection/raw/main/index%20of%20scans.torrent)
 
 
-How are you using the data? Have you found something, contact me I am intresting to hear your usecase. 
+How are you using the data? Have you found something, contact me I am intresting to hear your usecase. Please see my Twitter where I tweet about the things I find, There are a heck of OVPN profiles out there for which I don't publish under responsible disclosure rules. 
 
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WQ6V6K8ZY6D84">
   <img src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" alt="Donate with PayPal" />
