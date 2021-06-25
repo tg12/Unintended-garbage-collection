@@ -13,18 +13,13 @@ Humans are notorious litter bugs. There is a collossal amount of "interesting st
 
 Useful for alot of reasons
 
->  - Remove data you are publishing but shouldn't be
+>  - Remove data you are unknowingly publishing but shouldn't be
 >  - OSINT Investigations
 >  - Triage Poor OPSEC
 
-My intention was to find every "Index of /" server publically accessable, 
-
-This generates alot of data. That's why there is a Torrent. 
+This generates alot of data some files are too big for Github, So I have created a torrent for you
 
 [Download Torrent](https://github.com/tg12/Unintended-garbage-collection/raw/main/index%20of%20scans.torrent)
-
-More Info 
-https://en.wikipedia.org/wiki/Webserver_directory_index
 
 
 How are you using the data? Have you found something, contact me I am intresting to hear your usecase. 
