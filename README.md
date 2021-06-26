@@ -17,10 +17,7 @@ Useful for alot of reasons
 >  - OSINT Investigations
 >  - Triage Poor OPSEC
 
-This generates alot of data some files are too big for Github, So I have created a torrent for you
-
-[Download Torrent](https://github.com/tg12/Unintended-garbage-collection/raw/main/index%20of%20scans.torrent)
-
+[Download Datasets from here](http://www.jamessawyer.co.uk/data_sets/)
 
 How are you using the data? Have you found something, contact me I am intresting to hear your usecase. Please see my Twitter where I tweet about the things I find, There are a heck of OVPN profiles out there for which I don't publish under responsible disclosure rules. 
 
